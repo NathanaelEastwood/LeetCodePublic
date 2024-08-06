@@ -16,7 +16,9 @@
 # from LC1248 import Solution
 # from LC30 import Solution
 # from LC1653 import Solution
-from LC1460 import Solution
+# from LC1460 import Solution
+# from LC3016 import Solution
+from LC4 import Solution
 
 sol = Solution
-print(sol.canBeEqual(sol, [1, 2, 3, 4], [2, 4, 1, 3]))
+print(sol.findMedianSortedArrays(sol, [1, 2], [3, 4]))
