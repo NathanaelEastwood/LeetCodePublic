@@ -18,7 +18,9 @@
 # from LC1653 import Solution
 # from LC1460 import Solution
 # from LC3016 import Solution
-from LC4 import Solution
+# from LC4 import Solution
+# from LC273 import Solution
+from LC860 import Solution
 
 sol = Solution
-print(sol.findMedianSortedArrays(sol, [1, 2], [3, 4]))
+print(sol.lemonadeChange(sol, [5,5,5,10,20]))
