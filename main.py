@@ -20,7 +20,8 @@
 # from LC3016 import Solution
 # from LC4 import Solution
 # from LC273 import Solution
-from LC860 import Solution
+# from LC860 import Solution
+from LC338 import Solution
 
 sol = Solution
-print(sol.lemonadeChange(sol, [5,5,5,10,20]))
+print(sol.countBits(sol, 50))
