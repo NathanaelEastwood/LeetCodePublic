@@ -21,7 +21,9 @@
 # from LC4 import Solution
 # from LC273 import Solution
 # from LC860 import Solution
-from LC338 import Solution
+# from LC338 import Solution
+# from LC509 import Solution
+from LC539 import Solution
 
 sol = Solution
-print(sol.countBits(sol, 50))
+print(sol.findMinDifference(sol, ["23:59","01:00"]))
