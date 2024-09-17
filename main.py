@@ -23,7 +23,8 @@
 # from LC860 import Solution
 # from LC338 import Solution
 # from LC509 import Solution
-from LC539 import Solution
+# from LC539 import Solution
+from LC884 import Solution
 
 sol = Solution
-print(sol.findMinDifference(sol, ["23:59","01:00"]))
+print(sol.uncommonFromSentences(sol, "apple apple", "banana"))
