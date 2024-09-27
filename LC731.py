@@ -5,7 +5,6 @@ class MyCalendarTwo:
         self.end_dates = []
 
     def book(self, start: int, end: int) -> bool:
-
         is_tripled_booked = False
         booking_overlaps = 0
         for i in range(0, len(self.start_dates)):
