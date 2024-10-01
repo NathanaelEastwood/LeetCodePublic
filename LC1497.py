@@ -10,7 +10,7 @@ class Solution:
         for key in list(map.keys()):
             if (map.get(key) != map.get(k-key) and key != 0) or (key == k-key) % 2 != 0:
                 return False
-            elif map.get(key) is not None:
+            elif map.get(key) is not None and map.get(key-k) is not None:
                 map.pop(key)
                 map.pop(k-key)
         return True
