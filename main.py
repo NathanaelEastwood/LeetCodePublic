@@ -28,11 +28,11 @@
 # from LC179 import Solution
 # from LC214 import Solution
 # from LC731 import MyCalendarTwo
-
-from LC1497 import Solution
+# from LC1497 import Solution
+from LC1331 import Solution
 
 sol = Solution
-print(Solution.canArrange(sol, [1,2,3,4,5,10,6,7,8,9], 10))
+print(Solution.arrayRankTransform(sol, [40,10,20,30]))
 
 
 
