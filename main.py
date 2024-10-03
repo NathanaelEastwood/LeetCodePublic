@@ -29,10 +29,10 @@
 # from LC214 import Solution
 # from LC731 import MyCalendarTwo
 # from LC1497 import Solution
-from LC1331 import Solution
-
+# from LC1331 import Solution
+from LC1590 import Solution
 sol = Solution
-print(Solution.arrayRankTransform(sol, [40,10,20,30]))
+print(Solution.minSubarray(sol, [26,19,11,14,18,4,7,1,30,23,19,8,10,6,26,3], 26))
 
 
 
