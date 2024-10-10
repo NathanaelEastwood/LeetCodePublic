@@ -37,9 +37,10 @@
 # from LC1 import Solution
 # from LC49 import Solution
 # from LC347 import Solution
-from LC238 import Solution
+# from LC238 import Solution
+from LC36 import Solution
 sol = Solution
-print(Solution.productExceptSelf(sol, [1, 2, 3, 4]))
+print(Solution.isValidSudoku(sol, [["5","3",".",".","7",".",".",".","."],["6",".",".","1","9","5",".",".","."],[".","9","8",".",".",".",".","6","."],["8",".",".",".","6",".",".",".","3"],["4",".",".","8",".","3",".",".","1"],["7",".",".",".","2",".",".",".","6"],[".","6",".",".",".",".","2","8","."],[".",".",".","4","1","9",".",".","5"],[".",".",".",".","8",".",".","7","9"]]))
 
 
 
