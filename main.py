@@ -31,9 +31,14 @@
 # from LC1497 import Solution
 # from LC1331 import Solution
 # from LC1590 import Solution
-from LC2696 import Solution
+# from LC2696 import Solution
+# from LC962 import Solution
+# from LC242 import Solution
+# from LC1 import Solution
+# from LC49 import Solution
+from LC347 import Solution
 sol = Solution
-print(Solution.minLength(sol, "ABCD"))
+print(Solution.topKFrequent(sol, [1,1,1,2,2,3], 2))
 
 
 
