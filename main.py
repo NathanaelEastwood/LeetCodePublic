@@ -36,9 +36,10 @@
 # from LC242 import Solution
 # from LC1 import Solution
 # from LC49 import Solution
-from LC347 import Solution
+# from LC347 import Solution
+from LC238 import Solution
 sol = Solution
-print(Solution.topKFrequent(sol, [-1, -1], 1))
+print(Solution.productExceptSelf(sol, [1, 2, 3, 4]))
 
 
 
