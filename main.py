@@ -40,20 +40,20 @@
 # from LC238 import Solution
 # from LC36 import Solution
 # from LC128 import Solution
-# from LC20 import Solution
-# sol = Solution
-# print(Solution.isValid(sol, '()[]{}'))
+from LC20 import Solution
+sol = Solution
+print(Solution.isValid(sol, '()[]{}'))
 
-from LC155 import MinStack
+#from LC155 import MinStack
 
-minstack = MinStack()
-minstack.push(-2)
-minstack.push(0)
-minstack.push(-3)
-print(minstack.getMin())
-print(minstack.pop())
-print(minstack.top())
-print(minstack.getMin())
+# minstack = MinStack()
+# minstack.push(-2)
+# minstack.push(0)
+# minstack.push(-3)
+# print(minstack.getMin())
+# print(minstack.pop())
+# print(minstack.top())
+# print(minstack.getMin())
 
 
 
