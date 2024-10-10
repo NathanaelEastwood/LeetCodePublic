@@ -38,9 +38,10 @@
 # from LC49 import Solution
 # from LC347 import Solution
 # from LC238 import Solution
-from LC36 import Solution
+# from LC36 import Solution
+from LC128 import Solution
 sol = Solution
-print(Solution.isValidSudoku(sol, [["5","3",".",".","7",".",".",".","."],["6",".",".","1","9","5",".",".","."],[".","9","8",".",".",".",".","6","."],["8",".",".",".","6",".",".",".","3"],["4",".",".","8",".","3",".",".","1"],["7",".",".",".","2",".",".",".","6"],[".","6",".",".",".",".","2","8","."],[".",".",".","4","1","9",".",".","5"],[".",".",".",".","8",".",".","7","9"]]))
+print(Solution.longestConsecutive(sol, [-1,-9,-5,-2,-9,-3,-3]))
 
 
 
