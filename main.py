@@ -40,19 +40,21 @@
 # from LC238 import Solution
 # from LC36 import Solution
 # from LC128 import Solution
-from LC20 import Solution
-sol = Solution
-print(Solution.isValid(sol, '()[]{}'))
+# from LC20 import Solution
+# sol = Solution
+# print(Solution.isValid(sol, '()[]{}'))
+
+from LC155 import MinStack
+
+minstack = MinStack()
+minstack.push(-2)
+minstack.push(0)
+minstack.push(-3)
+print(minstack.getMin())
+print(minstack.pop())
+print(minstack.top())
+print(minstack.getMin())
 
 
 
 
-
-
-# cal = MyCalendarTwo()
-# print(cal.book(10, 20))
-# print(cal.book(50, 60))
-# print(cal.book(10, 40))
-# print(cal.book(5, 15))
-# print(cal.book(5, 10))
-# print(cal.book(25, 55))
