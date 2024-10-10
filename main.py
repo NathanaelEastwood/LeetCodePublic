@@ -38,7 +38,7 @@
 # from LC49 import Solution
 from LC347 import Solution
 sol = Solution
-print(Solution.topKFrequent(sol, [1,1,1,2,2,3], 2))
+print(Solution.topKFrequent(sol, [-1, -1], 1))
 
 
 
