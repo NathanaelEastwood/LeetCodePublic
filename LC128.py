@@ -4,19 +4,18 @@ from typing import List
 
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
-        hash_set = defaultdict(int)
+        set_nums = set(nums)
         result = 0
 
-        for num in nums:
-            hash_set[num] = 1
+        #for num in nums:
+        #    hash_set[num] = 1
 
-        for num in nums:
+        for num in set_nums:
             current_length = 0
-            if hash_set.get(num-1) is None:
-                while hash_set.get(num+current_length) is not None:
+            if (num-1) not in set_nums:
+                while (num + current_length) in set_nums:
                     current_length += 1
 
-            if current_length > result:
-                result = current_length
+            result = max(current_length, result)
 
         return result
