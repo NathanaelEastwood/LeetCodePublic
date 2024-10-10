@@ -39,9 +39,10 @@
 # from LC347 import Solution
 # from LC238 import Solution
 # from LC36 import Solution
-from LC128 import Solution
+# from LC128 import Solution
+from LC20 import Solution
 sol = Solution
-print(Solution.longestConsecutive(sol, [-1,-9,-5,-2,-9,-3,-3]))
+print(Solution.isValid(sol, '()[]{}'))
 
 
 
