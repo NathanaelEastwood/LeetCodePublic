@@ -40,9 +40,10 @@
 # from LC238 import Solution
 # from LC36 import Solution
 # from LC128 import Solution
-from LC20 import Solution
+# from LC20 import Solution
+from LC2405 import Solution
 sol = Solution
-print(Solution.isValid(sol, '()[]{}'))
+print(Solution.partitionString(sol, 'sssss'))
 
 #from LC155 import MinStack
 
