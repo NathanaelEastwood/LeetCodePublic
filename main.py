@@ -40,9 +40,10 @@
 # from LC238 import Solution
 # from LC36 import Solution
 # from LC128 import Solution
-from LC20 import Solution
+# from LC20 import Solution
+from LC150 import Solution
 sol = Solution
-print(Solution.isValid(sol, '()[]{}'))
+print(Solution.evalRPN(sol, ["10","6","9","3","+","-11","*","/","*","17","+","5","+"]))
 
 #from LC155 import MinStack
 
