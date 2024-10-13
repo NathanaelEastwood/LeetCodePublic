@@ -42,9 +42,10 @@
 # from LC128 import Solution
 # from LC20 import Solution
 # from LC150 import Solution
-from LC853 import Solution
+# from LC853 import Solution
+from LC84 import Solution
 sol = Solution
-print(Solution.carFleet(sol, 10, [0, 4, 2], [2, 1, 3]))
+print(Solution.largestRectangleArea(sol,[2,1,5,6,2,3]))
 
 
 
