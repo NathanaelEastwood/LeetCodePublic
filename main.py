@@ -41,9 +41,12 @@
 # from LC36 import Solution
 # from LC128 import Solution
 # from LC20 import Solution
-from LC150 import Solution
+# from LC150 import Solution
+from LC853 import Solution
 sol = Solution
-print(Solution.evalRPN(sol, ["10","6","9","3","+","-11","*","/","*","17","+","5","+"]))
+print(Solution.carFleet(sol, 10, [0, 4, 2], [2, 1, 3]))
+
+
 
 #from LC155 import MinStack
 
