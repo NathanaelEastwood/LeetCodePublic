@@ -43,9 +43,10 @@
 # from LC20 import Solution
 # from LC150 import Solution
 # from LC853 import Solution
-from LC84 import Solution
+# from LC84 import Solution
+from LC11 import Solution
 sol = Solution
-print(Solution.largestRectangleArea(sol,[2,1,5,6,2,3]))
+print(Solution.maxArea(sol,[1,8,6,2,5,4,8,3,7]))
 
 
 
