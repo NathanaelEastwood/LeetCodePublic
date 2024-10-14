@@ -44,9 +44,10 @@
 # from LC150 import Solution
 # from LC853 import Solution
 # from LC84 import Solution
-from LC11 import Solution
+# from LC11 import Solution
+from LC42 import Solution
 sol = Solution
-print(Solution.maxArea(sol,[1,8,6,2,5,4,8,3,7]))
+print(Solution.trap(sol,[0,1,0,2,1,0,1,3,2,1,2,1]))
 
 
 
