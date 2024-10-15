@@ -46,9 +46,11 @@
 # from LC84 import Solution
 # from LC11 import Solution
 # from LC42 import Solution
-from LC2938 import Solution
+# from LC2938 import Solution
+# from LC704 import Solution
+from LC74 import Solution
 sol = Solution
-print(Solution.minimumSteps(sol, "10010"))
+print(Solution.searchMatrix(sol, [[1,3,5,7],[10,11,16,20],[23,30,34,60]], 601))
 
 
 
