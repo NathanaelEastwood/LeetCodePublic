@@ -45,9 +45,10 @@
 # from LC853 import Solution
 # from LC84 import Solution
 # from LC11 import Solution
-from LC42 import Solution
+# from LC42 import Solution
+from LC2938 import Solution
 sol = Solution
-print(Solution.trap(sol,[0,1,0,2,1,0,1,3,2,1,2,1]))
+print(Solution.minimumSteps(sol, "10010"))
 
 
 
