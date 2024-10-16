@@ -18,7 +18,3 @@ class Solution:
                 size_array.sort()
             else:
                 return "".join(result_array)
-
-
-
-
