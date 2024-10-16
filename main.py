@@ -50,9 +50,10 @@
 # from LC704 import Solution
 # from LC74 import Solution
 # from LC1405 import Solution
-from LC1002 import Solution
+# from LC1002 import Solution
+from LC875 import Solution
 sol = Solution
-print(Solution.commonChars(sol, ["cool", "lock", "cook"]))
+print(Solution.minEatingSpeed(sol, [312884470], 312884469))
 
 
 
