@@ -48,9 +48,10 @@
 # from LC42 import Solution
 # from LC2938 import Solution
 # from LC704 import Solution
-from LC74 import Solution
+# from LC74 import Solution
+from LC1405 import Solution
 sol = Solution
-print(Solution.searchMatrix(sol, [[1,3,5,7],[10,11,16,20],[23,30,34,60]], 601))
+print(Solution.longestDiverseString(sol, 3, 2, 3))
 
 
 
