@@ -55,9 +55,19 @@
 # from LC153 import Solution
 # from LC33 import Solution
 # from LC670 import Solution
-from LC33 import Solution
-sol = Solution
-print(Solution.search(sol, [3, 1,  2], 3))
+# from LC33 import Solution
+# sol = Solution
+# print(Solution.search(sol, [3, 1,  2], 3))
+
+from LC981 import TimeMap
+timemap = TimeMap()
+print(timemap.set("love", "high", 10))
+print(timemap.set("love", "low", 20))
+print(timemap.get("love", 5))
+print(timemap.get("love", 10))
+print(timemap.get("love", 15))
+print(timemap.get("love", 20))
+print(timemap.get("love", 25))
 
 
 
