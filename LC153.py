@@ -19,7 +19,4 @@ class Solution:
                 r = m
             m = l + (r - l) // 2
 
-        if nums[m] > nums[0]:
-            return nums[0]
-
         return nums[m]

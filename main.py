@@ -52,9 +52,12 @@
 # from LC1405 import Solution
 # from LC1002 import Solution
 # from LC875 import Solution
-from LC153 import Solution
+# from LC153 import Solution
+# from LC33 import Solution
+# from LC670 import Solution
+from LC33 import Solution
 sol = Solution
-print(Solution.findMin(sol, [11,13,15,17]))
+print(Solution.search(sol, [3, 1,  2], 3))
 
 
 
