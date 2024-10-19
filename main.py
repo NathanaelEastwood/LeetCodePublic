@@ -59,9 +59,10 @@
 # from LC3 import Solution
 # from LC424 import Solution
 # from LC567 import Solution
-from LC424 import Solution
+# from LC424 import Solution
+from LC76 import Solution
 sol = Solution
-print(Solution.characterReplacement(sol, "AABABBA", 1))
+print(Solution.minWindow(sol, "a", "aa"))
 
 
 # from LC981 import TimeMap
