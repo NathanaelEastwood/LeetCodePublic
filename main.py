@@ -1,5 +1,6 @@
 from List_Node import ListNode
 from TreeNode import TreeNode
+from Node import Node
 # from Roman_To_Integer import Solution
 # from Longest_Common_Prefix import Solution
 # from candy2 import Solution
@@ -65,13 +66,18 @@ from TreeNode import TreeNode
 # from LC76 import Solution
 # from LC239 import Solution
 # from LC21 import Solution
-from LC19 import Solution
+# from LC19 import Solution
+from LC138 import Solution
 
-#list1 = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
-list1 = ListNode(1)
+node3 = Node(3)
+node1 = Node(2, node3, node3)
+
 
 sol = Solution
-print(Solution.removeNthFromEnd(sol, list1, 1))
+result = Solution.copyRandomList(sol, node1)
+while result:
+    print(result.val, result.random.val)
+    result = result.next
 
 
 # from LC981 import TimeMap
