@@ -67,17 +67,14 @@ from Node import Node
 # from LC239 import Solution
 # from LC21 import Solution
 # from LC19 import Solution
-from LC138 import Solution
+# from LC138 import Solution
+from LC2 import Solution
 
-node3 = Node(3)
-node1 = Node(2, node3, node3)
-
+l1 = ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9)))))
+l2 = ListNode(9, ListNode(9))
 
 sol = Solution
-result = Solution.copyRandomList(sol, node1)
-while result:
-    print(result.val, result.random.val)
-    result = result.next
+print(Solution.addTwoNumbers(sol, l1, l2))
 
 
 # from LC981 import TimeMap
