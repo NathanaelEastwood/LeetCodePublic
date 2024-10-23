@@ -5,10 +5,20 @@
 #         self.left = left
 #         self.right = right
 from typing import Optional
+
 from TreeNode import TreeNode
+
 
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        if root.left is None and root.right is None:
-            
+        if not root:
+            return None
 
+        left = root.left
+        root.left = root.right
+        root.right = left
+
+        self.invertTree(root.left)
+        self.invertTree(root.right)
+
+        return root

@@ -69,14 +69,13 @@ from Node import Node
 # from LC19 import Solution
 # from LC138 import Solution
 # from LC2 import Solution
-from LC23 import Solution
+# from LC23 import Solution
+# from LC110 import Solution
+# from LC235 import Solution
+from LC102 import Solution
 
-l1 = ListNode(1, ListNode(4, ListNode(5)))
-l2 = ListNode(1, ListNode(3, ListNode(4)))
-l3 = ListNode(2, ListNode(6))
-
-sol = Solution
-print(Solution.mergeKLists(sol, [l1, l2, l3]))
+sol = Solution()
+print(sol.levelOrder(TreeNode(6, TreeNode(2, TreeNode(0), TreeNode(4, TreeNode(3), TreeNode(5))), TreeNode(8, TreeNode(7), TreeNode(9)))))
 
 
 # from LC981 import TimeMap
