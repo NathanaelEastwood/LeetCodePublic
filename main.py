@@ -72,10 +72,22 @@ from Node import Node
 # from LC23 import Solution
 # from LC110 import Solution
 # from LC235 import Solution
-from LC102 import Solution
+# from LC102 import Solution
+# from LC98 import Solution
 
-sol = Solution()
-print(sol.levelOrder(TreeNode(6, TreeNode(2, TreeNode(0), TreeNode(4, TreeNode(3), TreeNode(5))), TreeNode(8, TreeNode(7), TreeNode(9)))))
+# sol = Solution()
+# print(sol.isValidBST(TreeNode(2, TreeNode(1), TreeNode(3))))
+
+from LC211 import WordDictionary
+
+wordDictionary = WordDictionary()
+print(wordDictionary.addWord("bad"))
+print(wordDictionary.addWord("dad"))
+print(wordDictionary.addWord("mad"))
+print(wordDictionary.search("pad"))
+print(wordDictionary.search("bad"))
+print(wordDictionary.search(".ad"))
+print(wordDictionary.search("b.."))
 
 
 # from LC981 import TimeMap
