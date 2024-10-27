@@ -1,3 +1,5 @@
+from numpy.ma.extras import median
+
 from List_Node import ListNode
 from TreeNode import TreeNode
 from Node import Node
@@ -74,20 +76,63 @@ from Node import Node
 # from LC235 import Solution
 # from LC102 import Solution
 # from LC98 import Solution
+# from LC212 import Solution
+# from LC105 import Solution
+# from LC124 import Solution
+# from LC39 import Solution
+# from LC46 import Solution
+# from LC40 import Solution
+# from LC79 import Solution
+from LC621 import Solution
 
-# sol = Solution()
-# print(sol.isValidBST(TreeNode(2, TreeNode(1), TreeNode(3))))
 
-from LC211 import WordDictionary
+sol = Solution()
+print(sol.leastInterval(["A","B","A"], 2))
 
-wordDictionary = WordDictionary()
-print(wordDictionary.addWord("bad"))
-print(wordDictionary.addWord("dad"))
-print(wordDictionary.addWord("mad"))
-print(wordDictionary.search("pad"))
-print(wordDictionary.search("bad"))
-print(wordDictionary.search(".ad"))
-print(wordDictionary.search("b.."))
+# ["a","b","c","e"]
+# ["x","x","c","d"]
+# ["x","x","b","a"]
+
+# from LC295 import MedianFinder
+# medianFinder = MedianFinder()
+
+
+
+# print(medianFinder.addNum(-1))
+# print(medianFinder.findMedian())
+# print(medianFinder.addNum(-2))
+# print(medianFinder.findMedian())
+# print(medianFinder.addNum(-3))
+# print(medianFinder.findMedian())
+# print(medianFinder.addNum(-4))
+# print(medianFinder.findMedian())
+# print(medianFinder.addNum(-5))
+# print(medianFinder.findMedian())
+
+
+
+#from LC355 import Twitter
+
+#twitter = Twitter()
+#print(twitter.postTweet(1, 5))
+#print(twitter.getNewsFeed(1))
+#print(twitter.follow(1, 2))
+#print(twitter.postTweet(2, 6))
+#print(twitter.getNewsFeed(1))
+#print(twitter.unfollow(1, 2))
+#print(twitter.getNewsFeed(1))
+
+
+# from LC211 import WordDictionary
+
+#wordDictionary = WordDictionary()
+#print(wordDictionary.addWord("bad"))
+#print(wordDictionary.addWord("dad"))
+#print(wordDictionary.addWord("mad"))
+#print(wordDictionary.search("pad"))
+#print(wordDictionary.search("bad"))
+#print(wordDictionary.search(".ad"))
+#print(wordDictionary.search("b.."))
 
 
 # from LC981 import TimeMap
