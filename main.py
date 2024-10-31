@@ -83,11 +83,22 @@ from Node import Node
 # from LC46 import Solution
 # from LC40 import Solution
 # from LC79 import Solution
-from LC621 import Solution
+# from LC621 import Solution
+# from LC131 import Solution
+# from LC17 import Solution
+# from LC70 import Solution
+# from LC746 import Solution
+# from LC198 import Solution
+# from LC213 import Solution
+# from LC5 import Solution
+from LC51 import Solution
+
 
 
 sol = Solution()
-print(sol.leastInterval(["A","B","A"], 2))
+print(sol.solveNQueens(5))
+
+#print(sol.isPalindrome("ab"))
 
 # ["a","b","c","e"]
 # ["x","x","c","d"]
