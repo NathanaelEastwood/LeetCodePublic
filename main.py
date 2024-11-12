@@ -1,5 +1,3 @@
-from numpy.ma.extras import median
-
 from List_Node import ListNode
 from TreeNode import TreeNode
 from Node import Node
@@ -91,12 +89,12 @@ from Node import Node
 # from LC198 import Solution
 # from LC213 import Solution
 # from LC5 import Solution
-from LC51 import Solution
-
+# from LC51 import Solution
+from LC2596 import Solution
 
 
 sol = Solution()
-print(sol.solveNQueens(5))
+print(sol.checkValidGrid([[0,11,16,5,20],[17,4,19,10,15],[12,1,8,21,6],[3,18,23,14,9],[24,13,2,7,22]]))
 
 #print(sol.isPalindrome("ab"))
 
