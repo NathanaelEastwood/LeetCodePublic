@@ -91,12 +91,16 @@ from Node import Node
 # from LC198 import Solution
 # from LC213 import Solution
 # from LC5 import Solution
-from LC51 import Solution
-
-
+# from LC51 import Solution
+# from LC152 import Solution
+# from LC1_2 import Solution
+# from LC2780 import Solution
+from LC572 import Solution
 
 sol = Solution()
-print(sol.solveNQueens(5))
+tree = TreeNode(3, TreeNode(4, TreeNode(1), TreeNode(2)), TreeNode(5))
+subtree = TreeNode(4, TreeNode(1), TreeNode(2))
+print(sol.isSubtree(tree, subtree))
 
 #print(sol.isPalindrome("ab"))
 
